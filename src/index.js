@@ -1,17 +1,52 @@
-import React from 'react';
+
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router';
+import { AllData } from './Data/AllData';
+import AllCart from './Cart/AllCart';
+import ScrollToTop from 'react-scroll-to-top';
+import AllProducts from './Products/AllProducts';
+import AllAbout from './About/AllAbout';
+import AllContact from './Contact/AllContact';
+import AllSingleProduct from './SingleProduct/AllSingleProduct';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import { CartProvider } from 'react-use-cart';
+
+var routes = createBrowserRouter([
+    {
+        path: "/",
+        element: <App />
+    },
+    {
+        path: "products",
+        element: <AllProducts/>
+    },
+    {
+        path: "about",
+        element: <AllAbout/>
+    },
+    {
+        path: "contact",
+        element: <AllContact/>
+    },
+    {
+        path: "singleproduct/:id",
+        element: <AllSingleProduct/>
+    },
+    {
+        path: "cart",
+        element: <AllCart />
+    }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <AllData>
+        <CartProvider>
+        <ScrollToTop />
+        <RouterProvider router={routes} />    
+        </CartProvider>
+    </AllData>
+
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
