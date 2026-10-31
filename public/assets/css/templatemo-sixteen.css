@@ -490,6 +490,7 @@ header .navbar {
 
 .product-item .down-content button:hover, .find-us button:hover{
 	background-color: #f33f3f;
+	cursor: pointer;
 }
 
 
