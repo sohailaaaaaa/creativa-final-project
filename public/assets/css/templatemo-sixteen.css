@@ -955,9 +955,16 @@ footer .inner-content p a {
 
 }
 
+.card .float-right a {
+	background-color: #f33f3f;
+	color: white;
+	
+}
+
+
+
 .card .checkout{
 	background-color: #f33f3f;
-	color: green;
 	transition: all 0.3s;
 	border: none;
 	outline: none;
@@ -1136,10 +1143,25 @@ footer .inner-content p a {
 	}
 }
 
-
+@media (min-width: 776px) and (max-width: 995px)  {
+	.product-item .down-content span{
+		visibility: hidden;
+	}
+}
+/*
+@media  {
+	.product-item .down-content span{
+		visibility: hidden;
+	}
+}
+*/
 /*
 .filters-content {
     display: flow-root;
     min-height: 500px;
 }
 */
+
+.shop-tooltip{
+	outline: none;
+}

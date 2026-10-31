@@ -29,7 +29,7 @@ function AllSingleProduct() {
           <img
             src={element.images[0]}
             width="100%"
-            
+            height= "200px"
             
             style={{ border: 0 }}
             allowFullScreen=""
@@ -44,12 +44,15 @@ function AllSingleProduct() {
             Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate
             nihil eumester consectetur similiqu consectetur.
             <br />
-            <br />
             Lorem ipsum dolor sit amet, consectetur adipisic elit. Et,
             consequuntur, modi mollitia corporis ipsa voluptate corrupti.
+            <br />
+            <br />                    
+          <span>Rating: {element.rating}/5</span>
           </p>
           
-          <button onClick={()=>addItem(element)} className='ml-4'>Add to Cart</button>
+          
+          <button onClick={()=>addItem(element)} className='ml-4 '>Add to Cart</button>
 
         </div>
       </div>

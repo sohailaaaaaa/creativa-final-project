@@ -7,7 +7,7 @@ function Navbar() {
         <header className="">
   <nav className="navbar navbar-expand-lg">
     <div className="container">
-      <NavLink className="navbar-brand" to="/about">
+      <NavLink className="navbar-brand" to="/">
         <h2>
           Sixteen <em>Clothing</em>
         </h2>

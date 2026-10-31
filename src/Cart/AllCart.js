@@ -21,14 +21,14 @@ function Cart(){
       <div className="card-header">
         <h2>Shopping Cart</h2>
       </div>
-      <div className="card-body">
+      <div className="card-body mt-5">
         <div className="table-responsive">
           <div className="block-heading">
               <h4 className="text-center margin-bottom:1.2rem">Shopping Cart</h4>
           </div>
         
           
-          <table className="table table-bordered m-0">
+          <table className="table table-bordered m-0 mt-3">
             <thead>
               <tr>
                 {/* Set columns width */}
@@ -148,12 +148,12 @@ function Cart(){
           </div>
         </div>
         <div className="float-right">
-          <button
-            type="button"
+          <Link to={`/products`} 
+            /*type="button"*/
             className="btn btn-lg btn-default md-btn-flat mt-2 mr-3"
           >
             Back to shopping
-          </button>
+          </Link>
           <button type="button" className="btn btn-lg mt-2 btn-danger checkout">
             Checkout
           </button>
