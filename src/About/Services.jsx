@@ -17,7 +17,7 @@ function Services() {
               Lorem ipsum dolor sit amet, consectetur an adipisicing elit.
               Itaque, corporis nulla at quia quaerat.
             </p>
-            <a href="#" className="filled-button">
+            <a href="/" className="filled-button">
               Read More
             </a>
           </div>
@@ -34,7 +34,7 @@ function Services() {
               Lorem ipsum dolor sit amet, consectetur an adipisicing elit.
               Itaque, corporis nulla at quia quaerat.
             </p>
-            <a href="#" className="filled-button">
+            <a href="/" className="filled-button">
               Details
             </a>
           </div>
@@ -51,7 +51,7 @@ function Services() {
               Lorem ipsum dolor sit amet, consectetur an adipisicing elit.
               Itaque, corporis nulla at quia quaerat.
             </p>
-            <a href="#" className="filled-button">
+            <a href="/" className="filled-button">
               Read More
             </a>
           </div>

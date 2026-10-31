@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect, useRef } from 'react'
 import Header from './Header'
-import Products from './Products'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import { useCart } from 'react-use-cart'
@@ -63,15 +62,15 @@ useEffect(() => {
                 <div className="filters">
                   <ul>
                     <li >
-                      <button className={search == "All"?"active":""} data-filter="*" onClick={()=>getValue("All")}>
+                      <button className={search === "All"?"active":""} data-filter="*" onClick={()=>getValue("All")}>
                         All Products
                       </button>
       
                        
                     </li>
-                    <button className={search == "featured"?"active":""}  onClick={()=>getValue("featured")}>Featured</button>
-                    <button className={search == "flashdeals"?"active":""} onClick={()=>getValue("flashdeals")}>Flash Deals</button>
-                    <button className={search == "lastminute"?"active":""} onClick={()=>getValue("lastminute")}>Last Minute</button>
+                    <button className={search === "featured"?"active":""}  onClick={()=>getValue("featured")}>Featured</button>
+                    <button className={search === "flashdeals"?"active":""} onClick={()=>getValue("flashdeals")}>Flash Deals</button>
+                    <button className={search === "lastminute"?"active":""} onClick={()=>getValue("lastminute")}>Last Minute</button>
                   </ul>
                 </div>
               </div>

@@ -11,7 +11,7 @@ function Footer() {
           <p>
             Copyright © 2020 Sixteen Clothing Co., Ltd. - Design:{" "}
             <a
-              rel="nofollow noopener"
+              rel="noreferrer"
               href="https://templatemo.com"
               target="_blank"
             >

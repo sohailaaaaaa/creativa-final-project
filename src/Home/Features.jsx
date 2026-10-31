@@ -32,22 +32,22 @@ function Features() {
           </p>
           <ul className="featured-list">
             <li>
-              <a href="#">Lorem ipsum dolor sit amet</a>
+              <a href="/">Lorem ipsum dolor sit amet</a>
             </li>
             <li>
-              <a href="#">Consectetur an adipisicing elit</a>
+              <a href="/">Consectetur an adipisicing elit</a>
             </li>
             <li>
-              <a href="#">It aquecorporis nulla aspernatur</a>
+              <a href="/">It aquecorporis nulla aspernatur</a>
             </li>
             <li>
-              <a href="#">Corporis, omnis doloremque</a>
+              <a href="/">Corporis, omnis doloremque</a>
             </li>
             <li>
-              <a href="#">Non cum id reprehenderit</a>
+              <a href="/">Non cum id reprehenderit</a>
             </li>
           </ul>
-          <a href="about.html" className="filled-button">
+          <a href="/about" className="filled-button">
             Read More
           </a>
         </div>

@@ -15,7 +15,7 @@ function AllSingleProduct() {
     <div>
         <Navbar/>
         {data.map( (element)=>{
-            return element.id == id? (
+            return element.id === id? (
                 <div className="find-us">
   <div className="container">
     <div className="row">
@@ -30,7 +30,7 @@ function AllSingleProduct() {
             src={element.images[0]}
             width="100%"
             height= "200px"
-            
+            alt='n'
             style={{ border: 0 }}
             allowFullScreen=""
           />

@@ -19,7 +19,7 @@ function CallToAction() {
               </p>
             </div>
             <div className="col-md-4">
-              <a href="#" className="filled-button">
+              <a href="/" className="filled-button">
                 Purchase Now
               </a>
             </div>

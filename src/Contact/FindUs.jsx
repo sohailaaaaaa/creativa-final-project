@@ -26,6 +26,7 @@ function FindUs() {
             frameBorder={0}
             style={{ border: 0 }}
             allowFullScreen=""
+            title="Our Location"
           />
         </div>
       </div>
@@ -42,22 +43,22 @@ function FindUs() {
           </p>
           <ul className="social-icons">
             <li>
-              <a href="#">
+              <a href="/">
                 <i className="fa fa-facebook" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/">
                 <i className="fa fa-twitter" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/">
                 <i className="fa fa-linkedin" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/">
                 <i className="fa fa-behance" />
               </a>
             </li>

@@ -23,11 +23,11 @@ function Products() {
           <div className="row grid">
             <div className="col-lg-4 col-md-4 all des">
               <div className="product-item">
-                <a href="#">
+                <a href="/">
                   <img src="assets/images/product_01.jpg" alt="" />
                 </a>
                 <div className="down-content">
-                  <a href="#">
+                  <a href="/">
                     <h4>Tittle goes here</h4>
                   </a>
                   <h6>$18.25</h6>
@@ -58,11 +58,11 @@ function Products() {
             </div>
             <div className="col-lg-4 col-md-4 all dev">
               <div className="product-item">
-                <a href="#">
+                <a href="/">
                   <img src="assets/images/product_02.jpg" alt="" />
                 </a>
                 <div className="down-content">
-                  <a href="#">
+                  <a href="/">
                     <h4>Tittle goes here</h4>
                   </a>
                   <h6>$16.75</h6>
@@ -93,11 +93,11 @@ function Products() {
             </div>
             <div className="col-lg-4 col-md-4 all gra">
               <div className="product-item">
-                <a href="#">
+                <a href="/">
                   <img src="assets/images/product_03.jpg" alt="" />
                 </a>
                 <div className="down-content">
-                  <a href="#">
+                  <a href="/">
                     <h4>Tittle goes here</h4>
                   </a>
                   <h6>$32.50</h6>
@@ -128,11 +128,11 @@ function Products() {
             </div>
             <div className="col-lg-4 col-md-4 all gra">
               <div className="product-item">
-                <a href="#">
+                <a href="/">
                   <img src="assets/images/product_04.jpg" alt="" />
                 </a>
                 <div className="down-content">
-                  <a href="#">
+                  <a href="/">
                     <h4>Tittle goes here</h4>
                   </a>
                   <h6>$24.60</h6>
@@ -163,11 +163,11 @@ function Products() {
             </div>
             <div className="col-lg-4 col-md-4 all dev">
               <div className="product-item">
-                <a href="#">
+                <a href="/">
                   <img src="assets/images/product_05.jpg" alt="" />
                 </a>
                 <div className="down-content">
-                  <a href="#">
+                  <a href="/">
                     <h4>Tittle goes here</h4>
                   </a>
                   <h6>$18.75</h6>
@@ -198,11 +198,11 @@ function Products() {
             </div>
             <div className="col-lg-4 col-md-4 all des">
               <div className="product-item">
-                <a href="#">
+                <a href="/">
                   <img src="assets/images/product_06.jpg" alt="" />
                 </a>
                 <div className="down-content">
-                  <a href="#">
+                  <a href="/">
                     <h4>Tittle goes here</h4>
                   </a>
                   <h6>$12.50</h6>
@@ -237,19 +237,19 @@ function Products() {
       <div className="col-md-12">
         <ul className="pages">
           <li>
-            <a href="#">1</a>
+            <a href="/">1</a>
           </li>
           <li className="active">
-            <a href="#">2</a>
+            <a href="/">2</a>
           </li>
           <li>
-            <a href="#">3</a>
+            <a href="/">3</a>
           </li>
           <li>
-            <a href="#">4</a>
+            <a href="/">4</a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <i className="fa fa-angle-double-right" />
             </a>
           </li>

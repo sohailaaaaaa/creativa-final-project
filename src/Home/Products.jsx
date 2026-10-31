@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router'
-import { apiValue } from '../Data/AllData';
+
 
 function Products() {
 

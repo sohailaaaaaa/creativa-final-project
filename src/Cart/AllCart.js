@@ -5,7 +5,7 @@ import Footer from '../Components/Footer'
 import { Link } from 'react-router'
 
 function Cart(){
-    const{items, updateItemQuantity, removeItem,totalItems, totalUniqueItems, cartTotal,emptyCart,isEmpty}= useCart()
+    const{items, updateItemQuantity, removeItem,totalItems, cartTotal}= useCart()
     return(
         <div>
           <>
@@ -49,7 +49,7 @@ function Cart(){
                   style={{ width: 40 }}
                 >
                   <a
-                    href="#"
+                    href="/"
                     className="shop-tooltip float-none text-light"
                     title=""
                     data-original-title="Clear cart"
@@ -96,7 +96,7 @@ function Cart(){
                 </td>
                 <td className="text-center align-middle px-0">
                   <button
-                    href="#"
+                    href="/"
                     className="shop-tooltip close float-none text-danger" onClick={()=>removeItem(item.id)}
                     title=""
                     data-original-title="Remove"
@@ -151,7 +151,7 @@ function Cart(){
           <Link to={`/products`} 
             /*type="button"*/
             className="btn btn-lg btn-default md-btn-flat mt-2 mr-3"
-          >
+          > 
             Back to shopping
           </Link>
           <button type="button" className="btn btn-lg mt-2 btn-danger checkout">
@@ -165,7 +165,7 @@ function Cart(){
     type="text/css"
     dangerouslySetInnerHTML={{
       __html:
-        "\nbody{\n    margin-top:50px;\n    background:#eee;\n}\n.ui-w-40 {\n    width: 40px !important;\n    height: auto;\n}\n\n.card{\n    box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);    \n}\n\n.ui-product-color {\n    display: inline-block;\n    overflow: hidden;\n    margin: .144em;\n    width: .875rem;\n    height: .875rem;\n    border-radius: 10rem;\n    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;\n    box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;\n    vertical-align: middle;\n}\n"
+        "\nbody{\n    margin-top:50px;\n    background:/eee;\n}\n.ui-w-40 {\n    width: 40px !important;\n    height: auto;\n}\n\n.card{\n    box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);    \n}\n\n.ui-product-color {\n    display: inline-block;\n    overflow: hidden;\n    margin: .144em;\n    width: .875rem;\n    height: .875rem;\n    border-radius: 10rem;\n    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;\n    box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;\n    vertical-align: middle;\n}\n"
     }}
   />
 </>
