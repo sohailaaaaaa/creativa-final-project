@@ -15,7 +15,7 @@ function AllSingleProduct() {
     <div>
         <Navbar/>
         {data.map( (element)=>{
-            return element.id === id? (
+            return String(element.id) === id? (
                 <div className="find-us">
   <div className="container">
     <div className="row">

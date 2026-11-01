@@ -23,7 +23,7 @@ function Products() {
             <img src="assets/images/product_01.jpg" alt="" />
           </Link>
           <div className="down-content">
-            <Link to={`/singleproduct/1`}>
+            <Link to="/singleproduct/1">
               <h4>Mustard Brown Ankle Boots</h4>
             </Link>
             <h6>$25.75</h6>
